@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    //$("#conten-crear").hide();
+    $("#conten-crear").hide();
 
     $("#btnCrear").click(function () {
         $("#conten-crear").show("fast");
