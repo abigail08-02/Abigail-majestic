@@ -1,0 +1,85 @@
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    background-color: indianred;
+    color: #000000;
+}
+
+.seleccionado{
+    background-color: lawngreen;
+}
+
+button:hover, p:hover{
+    cursor: pointer;
+
+}
+
+.Menu{
+    text-align: center;
+}
+
+.contenidos p{
+    font-size: 10pt;
+    padding: 5px;
+    margin: 20px;
+
+}
+
+.contenidos{
+    border: 1px solid gold;
+    margin: 10px;
+}
+
+p{
+    background-color: fuchsia;
+}
+
+p:hover{
+    background-color: lawngreen;
+}
+
+.animando{
+    position: relative;
+    margin: 20px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.texto{
+    position: absolute;
+    top: 0;
+    left: 15px
+}
+
+.barra{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: lightcoral;
+    top: 0;
+    animation-name: cuarentena;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+
+}
+
+@keyframes cuarentena{
+    0%{top: 10px; left: 0px; background-color:orangered ;}
+    20%{top: 100px; background-color: palevioletred  ;}
+    40%{top: 100px; background-color: purple ;}
+    60%{top: 100px; background-color: seagreen ;}
+    100%{
+        top: 100px;
+        left: 200px;
+    }
+}
+
+
+
+
